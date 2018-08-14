@@ -21,7 +21,7 @@ def line(deliLine)
     thisLine = "The line is currently: "
     deliLine.each do |name| 
       num = deliLine.index(name) + 1
-      thisLine += "#{num}. #{name}"
+      thisLine += " #{num}. #{name}"
     end
     puts thisLine
   end
