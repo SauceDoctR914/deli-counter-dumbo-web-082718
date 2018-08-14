@@ -6,7 +6,7 @@ def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
-def now_serving(line, name)
+def now_serving(line)
   if line.length == 0 
     puts "There is nobody waiting to be served!"
   else
@@ -14,7 +14,7 @@ def now_serving(line, name)
   end
 end
 
-def line(deliLine, name)
+def line(deliLine)
   if line.length == 0
     puts "The line is currently empty."
   else 
