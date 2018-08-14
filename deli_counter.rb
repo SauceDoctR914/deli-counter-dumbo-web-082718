@@ -18,7 +18,7 @@ def line(deliLine)
   if deliLine.length == 0
     puts "The line is currently empty."
   else 
-    thisLine = "The line is currently: "
+    thisLine = "The line is currently:"
     deliLine.each do |name| 
       num = deliLine.index(name) + 1
       thisLine += " #{num}. #{name}"
