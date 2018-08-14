@@ -15,12 +15,12 @@ def now_serving(line)
 end
 
 def line(deliLine)
-  if line.length == 0
+  if deliLine.length == 0
     puts "The line is currently empty."
   else 
     thisLine = "The line is currently: "
-    line.each do |name| 
-      num = line.index(name) + 1
+    deliLine.each do |name| 
+      num = deliLine.index(name) + 1
       thisLine += "#{num}. #{name}"
     end
     puts thisLine
